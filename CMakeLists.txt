@@ -3,7 +3,7 @@ project(echo_server C)
 
 set(CMAKE_C_STANDARD 11)
 
-file(GLOB SOURCES "src/*.cpp")
+file(GLOB SOURCES "src/*.c")
 
 add_executable(echo_server ${SOURCES})
 
